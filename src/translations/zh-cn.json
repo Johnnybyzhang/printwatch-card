@@ -52,7 +52,7 @@
           "silent": "静音",
           "standard": "标准",
           "sport": "运动",
-          "ludicrous": "极速"
+          "ludicrous": "狂暴"
         },
         "dialogs": {
           "pause": {
@@ -69,7 +69,7 @@
         "materials": {
           "empty": "空",
           "unknown": "未知",
-          "external_spool": "外部线轴"
+          "external_spool": "外挂料盘"
         }
       }
     }
