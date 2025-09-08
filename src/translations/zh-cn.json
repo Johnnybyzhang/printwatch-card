@@ -1,0 +1,77 @@
+{
+  "entity": {
+    "sensor": {
+      "state": {
+        "idle": "空闲",
+        "printing": "打印中",
+        "paused": "已暂停",
+        "complete": "完成",
+        "offline": "离线",
+        "unknown": "未知",
+        "running": "运行中",
+        "finish": "已完成"
+      }
+    }
+  },
+  "ui": {
+    "card": {
+      "printwatch": {
+        "not_printing": "当前未在打印",
+        "last_print": "最后打印：{name}",
+        "printer_offline": "打印机离线",
+        "camera_unavailable": "摄像头不可用",
+        "time": {
+          "complete": "完成",
+          "left": "剩余",
+          "hours": "小时",
+          "minutes": "分钟"
+        },
+        "print": {
+          "layer": "层数",
+          "progress": "进度",
+          "weight": "重量",
+          "length": "长度"
+        },
+        "temperatures": {
+          "bed": "热床",
+          "nozzle": "喷嘴",
+          "speed": "速度",
+          "bed_target": "设置热床温度",
+          "nozzle_target": "设置喷嘴温度",
+          "speed_profile": "设置打印速度",
+          "range": "范围：{min}°C - {max}°C"
+        },
+        "controls": {
+          "pause": "暂停",
+          "resume": "继续",
+          "stop": "停止",
+          "cancel": "取消",
+          "save": "保存"
+        },
+        "speed_profiles": {
+          "silent": "静音",
+          "standard": "标准",
+          "sport": "运动",
+          "ludicrous": "极速"
+        },
+        "dialogs": {
+          "pause": {
+            "title": "确认暂停",
+            "message": "您确定要暂停当前打印吗？这可能会影响打印质量。",
+            "confirm": "确认"
+          },
+          "stop": {
+            "title": "确认停止",
+            "message": "您确定要停止当前打印吗？此操作无法撤销。",
+            "confirm": "停止打印"
+          }
+        },
+        "materials": {
+          "empty": "空",
+          "unknown": "未知",
+          "external_spool": "外部线轴"
+        }
+      }
+    }
+  }
+}
